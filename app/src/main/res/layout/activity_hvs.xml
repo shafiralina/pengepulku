@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HvsActivity">
+
+    <ImageView
+        android:id="@+id/hvs"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/hvs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/kertas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Kertas HVS"
+        android:textColor="#000000"
+        android:layout_below="@+id/hvs"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/berat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="100 gram"
+        android:layout_below="@id/kertas"/>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/amount_hvs"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        app:backGroundColor="@color/colorPrimary"
+        android:layout_below="@id/berat"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:initialNumber="1"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 160,-"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@id/amount_hvs"
+        android:layout_below="@id/berat"
+        android:gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Barang"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_below="@id/harga"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tentang1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kertas HVS tidak boleh basah, terkena minyak/oli, rayap maupun rapuh."
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:layout_below="@id/tentang"/>
+    <Button
+        android:id="@+id/btn_hvs"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="MASUKKAN"
+        android:background="@drawable/custom_button"
+        android:layout_below="@+id/tentang1"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

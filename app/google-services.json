@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "59020076054",
+    "firebase_url": "https://pengepulku-11717.firebaseio.com",
+    "project_id": "pengepulku-11717",
+    "storage_bucket": "pengepulku-11717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59020076054:android:aeac343674da6fd457c137",
+        "android_client_info": {
+          "package_name": "com.shafira.pengepulku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59020076054-v2mjgvu4peduoqimp675cp1bpjhhek4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHoZ0h7YfyCcOvktUDHlw2ULaZfR8QQPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59020076054-v2mjgvu4peduoqimp675cp1bpjhhek4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
