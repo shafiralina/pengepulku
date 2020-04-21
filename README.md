@@ -11,5 +11,5 @@ Database:
 Authorization:
 - Firebase email/password authorization
 
-![Screenshots](Screenshot_20200421-200237.png)
+![screenshots](Screenshot_20200421-200237.png)
 
