@@ -11,5 +11,5 @@ Database:
 Authorization:
 - Firebase email/password authorization
 
-![alt text](https://drive.google.com/open?id=1PRay_sowEHMxk6jHeYQhNubz8RZlSnyC)
+![alt text](https://pasteboard.co/J4PYD0v.png)
 
