@@ -11,4 +11,4 @@ Database:
 Authorization:
 - Firestore email/password authorization
 
-![screenshots](screenshots/Untitled design.png)
+![screenshots](screenshots/pengepulku.png)
